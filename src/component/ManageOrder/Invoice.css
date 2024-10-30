@@ -1,0 +1,18 @@
+/* Ẩn tất cả mọi thứ ngoài nội dung hóa đơn khi in */
+@media print {
+    body * {
+      visibility: hidden;
+    }
+  
+    #invoice-content, #invoice-content * {
+      visibility: visible;
+    }
+  
+    #invoice-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+  

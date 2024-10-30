@@ -1,0 +1,10 @@
+.import-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}

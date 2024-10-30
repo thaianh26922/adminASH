@@ -227,7 +227,7 @@ function ProductList() {
                 <Button type="default">Quay lại</Button>
                 <Button type="primary">Cập nhật</Button>
                 <Button type="danger" style={{ backgroundColor: '#ff4d4f', borderColor: '#ff4d4f' , color : 'white' }}>Ngừng kinh doanh</Button>
-<Button type="danger" style={{ backgroundColor: '#ff4d4f', borderColor: '#ff4d4f' ,color : 'white'  }}>Xóa</Button>
+    <Button type="danger" style={{ backgroundColor: '#ff4d4f', borderColor: '#ff4d4f' ,color : 'white'  }}>Xóa</Button>
 
             </div>
         </div>

@@ -40,7 +40,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                         <BsPeopleFill className='icon' />  Quản lý doanh thu
                     </NavLink>
                 </li>
-                <li className='sidebar-list-item'>
+                                <li className='sidebar-list-item'>
                     <NavLink to={'/manageSupplier'}>
                         <BsListCheck className='icon' />  Quản lý phản hồi 
                     </NavLink>
@@ -53,6 +53,36 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                 <li className='sidebar-list-item'>
                     <NavLink to={'/manageProfit'}>
                         <BsFillGearFill className='icon' /> Logout
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/import'}>
+                        <BsPeopleFill className='icon' /> Import sản phẩm
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/supplier'}>
+                        <BsPeopleFill className='icon' /> Quan ly nha cung cap
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/employee'}>
+                        <BsPeopleFill className='icon' /> Quan ly nhân viên
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/service'}>
+                        <BsPeopleFill className='icon' /> Quan ly dich vu
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/feedback'}>
+                        <BsPeopleFill className='icon' /> Quan ly phan hoi
+                    </NavLink>
+                </li>
+                <li className='sidebar-list-item'>
+                    <NavLink to={'/invoice'}>
+                        <BsPeopleFill className='icon' /> in hoa don
                     </NavLink>
                 </li>
             </ul>
